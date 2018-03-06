@@ -4,8 +4,11 @@
 ```
 
 ## Pre-requisites
-1. Server to handle PHP
-2. cURL console access
+1. Webserver:
+- PHP
+- cURL
+2. Client:
+- cURL
 
 ## Getting started
 
@@ -18,7 +21,7 @@ $ git clone git@github.com:jaechow/ip.git
 
 >**or** if you prefer building through console access to your host:
 >
->`$ echo "<?php echo $_SERVER[\"REMOTE_ADDR\"].\"\\n\"; ?>" >> index.php`
+>`$ echo "<?php echo \$_SERVER[\"REMOTE_ADDR\"].\"\\n\"; ?>" >> index.php`
 
 3. Open up console, here's the cURL:
 ```console
