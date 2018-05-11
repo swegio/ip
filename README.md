@@ -12,18 +12,15 @@
 
 ## Getting started
 
-- Clone the repository into your project directory of choice
-```console
-$ git clone git@github.com:jaechow/ip.git
-```
+- Clone or download the repository into your project directory of choice
 
-- Upload the file to your host
+- Upload the file to your webserver
 
 >**or** if you prefer building through console access to your host:
 >
 >`$ echo "<?php echo \$_SERVER[\"REMOTE_ADDR\"].\"\\n\"; ?>" >> index.php`
 
-- Open up console, here's the cURL:
+- Open up console on the client, use cURL to display IP address:
 ```console
 $ curl yourserver.com
 8.8.8.8
