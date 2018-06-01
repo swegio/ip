@@ -20,7 +20,10 @@
 >
 >`$ echo "<?php echo \$_SERVER[\"REMOTE_ADDR\"].\"\\n\"; ?>" >> index.php`
 
-- Open up your console, use cURL to display IP address:
+- Open up your console, type `curl` then replace 'yourserver.com' with the location of your `index.php` to render the page and display your IP address:
+
+`$ curl yourserver.com`
+
 ```console
 $ curl yourserver.com
 8.8.8.8
