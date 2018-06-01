@@ -12,15 +12,15 @@
 
 ## Getting started
 
-- Clone or download the repository into your project directory of choice
+- Clone or [download](https://github.com/swegio/ip/archive/master.zip) the repository into your local directory of choice
 
-- Upload the file to your webserver
+- Upload the file `index.php` to your webserver
 
 >**or** if you prefer building through console access to your host:
 >
 >`$ echo "<?php echo \$_SERVER[\"REMOTE_ADDR\"].\"\\n\"; ?>" >> index.php`
 
-- Open up console on the client, use cURL to display IP address:
+- Open up your console, use cURL to display IP address:
 ```console
 $ curl yourserver.com
 8.8.8.8
