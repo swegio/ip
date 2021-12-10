@@ -1,9 +1,11 @@
 # Simple IP Address Reporting
+
 ```PHP
 <?php echo $_SERVER["REMOTE_ADDR"]."\n"; ?>
 ```
 
 ## Pre-requisites
+
 - Webserver:
     - PHP
     - cURL
@@ -16,7 +18,7 @@
 
 - Upload the file `index.php` to your webserver
 
->**or** if you prefer building through console access to your host:
+>**or** if you prefer to use your terminal emulator of choice:
 >
 >`$ echo "<?php echo \$_SERVER[\"REMOTE_ADDR\"].\"\\n\"; ?>" >> index.php`
 
@@ -32,6 +34,6 @@ $ curl yourserver.com
 >Depending on your webserver configuration you may be required to include "/index.php" like:
 
 ```console
-$ curl yourserver.com/index.php
+foo@bar:~$ curl yourserver.com/index.php
 8.8.8.8
 ```
