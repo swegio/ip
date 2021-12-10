@@ -24,10 +24,8 @@
 
 - Open up your console, type `curl` then replace 'yourserver.com' with the location of your `index.php` to render the page and display your IP address:
 
-`$ curl yourserver.com`
-
 ```console
-$ curl yourserver.com
+foo@bar:~$ curl yourserver.com
 8.8.8.8
 ```
 
