@@ -1,3 +1,13 @@
+<p align="center">
+    <img src="https://repository-images.githubusercontent.com/123972919/05e941e3-a69e-4260-be4e-4386749d4de6" width="320" />
+</p>
+<a href="https://discord.com/channels/840764739264839690/841418043510751242"><img src="https://img.shields.io/discord/840764739264839690" /></a>
+![Watchers](https://img.shields.io/github/watchers/swegio/ip.svg)
+![Stars](https://img.shields.io/github/stars/swegio/ip)
+![Commits](https://img.shields.io/github/commit-activity/m/swegio/ip/main)
+![Last Commit](https://img.shields.io/github/last-commit/swegio/ip/main)
+[![GitHub Issues](https://img.shields.io/github/issues/swegio/ip.svg)](https://github.com/swegio/ip/issues)
+
 # Simple IP Address Reporting
 
 ```PHP
